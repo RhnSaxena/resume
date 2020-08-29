@@ -1,0 +1,227 @@
+%-------------------------
+% Resume in Latex
+% Author : Siddharth Kumar Verma
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-1pt}}
+  }
+}
+
+\newcommand{\resumeItemList}[1]{
+  \vspace{-2pt}\item\small{
+    { #1}
+  }
+}
+
+\newcommand{\resumeItemListTwo}[2]{
+  \vspace{-1pt}\item\small
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      {\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-2pt}
+}
+\newcommand{\resumeItemListThree}[3]{
+  \vspace{1pt}\item\small
+    {#1}
+    \begin{tabular*}{0.92\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      {\small #2} & \textit{\small #3} \\
+    \end{tabular*}
+}
+
+\newcommand{\resumeItemListBold}[1]{
+  \item\small{
+    \textbf{ #1 \vspace{-1pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubheadingThree}[2]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      {#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubheadingTwo}[3]{
+  \vspace{0pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1}  \\
+      \textit{\small#2} & \textit{\small #3} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-2pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+\newcommand{\resumeSubItemList}[1]{\resumeItemList{#1}\vspace{-4pt}}
+\newcommand{\resumeSubItemListTwo}[2]{\resumeItemListTwo{#1}{#2}\vspace{-4pt}}
+\newcommand{\resumeSubItemListBold}[1]{\resumeItemListBold{#1}\vspace{-4pt}}
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{https://rohansaxena.in}{\Large Rohan Saxena}}\\
+  \href{https://rohansaxena.in}{rohansaxena.in} & Email : \href{mailto:rhnsaxena7@gmail.com}{rhnsaxena7@gmail.com}\\
+  LinkedIn/GitHub : @rhnsaxena & Mobile : +91-8527129869 \\
+\end{tabular*}
+
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Indian Institute of Information Technology}{Jabalpur, Madhya Pradesh}
+      {Bachelor of Technology in Computer Science;  CPI: 7.7}{August 2017 -- present}
+    \resumeSubheading
+      {Vidya Mandir Public School}{Faridabad, Haryana}
+      {Senior Secondary Education| CBSE | Percentage 91.4\%}{2014 - 2016}
+    \resumeSubheading
+      {Vidya Mandir Public School}{Faridabad, Haryana}
+      {Secondary Education| CBSE | CGPA 10}{2012 - 2014}
+      
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Innovaccer}{Noida, Uttar Pradesh}
+      {Software Development Engineer - Intern}{April 2020 - June 2020}
+      \resumeItemListStart
+        \resumeItem{InAPI}
+          {As a code developer, I collaborated with the InAPI Platform team for developing two projects . The projects were built as per REST API architecture and FHIR standards. They followed serverless architecture through AWS Lambda and used OAuth2.0 for authorization. They were also integrated with automatic testing through Postman and Newman collections which was performed through GitHub Actions during CI/CD pipeline. }
+          \resumeItem{Technologies}
+          {Python, JavaScript, Django, AWS Lambda, GitHub Actions, Postman collections}
+      \resumeItemListEnd
+    \resumeSubheading
+      {IBM}{IBM GTS Labs, Bengaluru}
+      {Summer Intern}{May 2019 - July 2019}
+      \resumeItemListStart
+        \resumeItem{PaaS Automation}
+          {As a code developer, I worked with the Journey to Cloud COE team to automate the deployment of Highly Available Clusters on the IBM Cloud platform. This was a highly scalable solution, customizable as per the client's needs and proved to reduce the time for deployment by 70\%.}
+          \resumeItem{Technologies}
+          {RedHat OpenShift, RedHat Ansible, IBM Virtual Machines, Ansible Tower}
+      \resumeItemListEnd
+      
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------------
+\section{Projects}
+  \resumeSubHeadingListStart
+    \resumeSubItem{Office Entry Management Portal}
+      {A platform to enable the offices to keep track of visitors and employees. It enables the visitors to book an appointment with any employee along with the email notification. \\ {Technologies}: Node.js, MongoDB, Nodemailer}
+
+    \resumeSubItem{Atithi Chatbot}
+      {A chatbot based solution to promote Indian Tourism, developed for the Smart India Hackathon 2020. The chatbot was built using CISCO MindMeld Conversational AI Platform to process the user queries and was integrated with many third party APIs. It was deployed on Microsoft Azure. }
+
+    \resumeSubItem{Fill Red}
+      {An online platform to connect the potential blood donors with those in need.  \\ {Technologies}:  MySQL, PHP, Bootstrap}
+  \resumeSubHeadingListEnd
+
+
+%--------PROGRAMMING SKILLS------------
+
+\section{Skills}
+  \resumeSubHeadingListStart
+    \resumeSubItem{Languages}
+      {Java, C, JavaScript, Python}
+    \resumeSubItem{Technologies}
+      {Git, Node.js, Django, MongoDB, Postgres}
+    \resumeSubItem{Core}
+      {Data Structures, Object Oriented Programming, DBMS, SQL}
+    \resumeSubItem{Cloud}
+      {AWS Lambda, Boto3, AWS S3, AWS ec2, IBM Watson, RedHat OpenShift, RedHat Ansible}
+  \resumeSubHeadingListEnd
+
+
+%--------------ACHIEVEMENTS-------------------
+\section{Achievements}
+  \resumeSubHeadingListStart
+    \resumeSubItemList {Qualified for Smart India Hackathon Finale 2020 which is conducted by the MHRD, India.}
+    \resumeSubItemList {Secured Second Position in IBM Hackathon organized by IBM at PDPM IIITDMJ 2019.}
+    \resumeSubItemList {Secured Second Position in Hackin' City Hackathon, IIITM Gwalior 2019.}
+  \resumeSubHeadingListEnd
+
+%--------------Accomplishments-------------------
+\section{Position of Responsibility}
+  \resumeSubHeadingListStart
+    \resumeSubItemList{Member of Students’ Senate at PDPM IIITDM Jabalpur for the academic year 2019-2020.}
+    \resumeSubItemList{Headed the Web Design and Development Department as Core Team Member for Inter IIIT Annual Sports Meet, 2020.}
+    \resumeSubItemList{Headed the committee for Gymkhana Website Management of the college.}
+  \resumeSubHeadingListEnd
+
+%--------------Extra Curricular-------------------
+\section{Volunteer Work}
+  \resumeSubHeadingListStart
+    \resumeSubItemList{Volunteered in various capacities for organising college fests.}
+    \resumeSubItemList{Volunteered for National Service Scheme (NSS) campaign in the college.}
+  \resumeSubHeadingListEnd
+\end{document}
